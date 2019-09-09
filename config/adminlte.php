@@ -30,7 +30,7 @@ return [
     |
     */
 
-    'logo' => '<b>Admin</b>LTE',
+    'logo' => '<b>Cartão Virtual</b>',
 
     'logo_mini' => '<b>A</b>LT',
 
@@ -118,9 +118,9 @@ return [
             'can'  => 'manage-blog',
         ],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-file',
+            'text'        => 'Página Inicial',
+            'url'         => 'admin',
+            'icon'        => 'fas fa-home',
             'label'       => 4,
             'label_color' => 'success',
         ],
@@ -174,18 +174,7 @@ return [
             ],
         ],
         ['header' => 'labels'],
-        [
-            'text'       => 'important',
-            'icon_color' => 'red',
-        ],
-        [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-        ],
-        [
-            'text'       => 'information',
-            'icon_color' => 'aqua',
-        ],
+       
     ],
 
     /*
