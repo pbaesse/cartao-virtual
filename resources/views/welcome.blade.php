@@ -13,7 +13,7 @@
         <style>
             html, body {
                 background-color: #fff;
-                color: #636b6f;
+                color: #4d4d4d;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;
@@ -28,30 +28,40 @@
                 align-items: center;
                 display: flex;
                 justify-content: center;
+                width: 410px;
+                height: 120px;
+                
             }
 
             .position-ref {
                 position: relative;
             }
 
-            .top-right {
+            .center {
                 position: absolute;
                 right: 10px;
-                top: 18px;
+                top: 10px;
+                width: 350px;
+                height: 64;
             }
 
             .content {
                 text-align: center;
+                position:absolute;
+                top: 220px;
+                left: 290px;
+                height: 199px;
+                width: 883px;
             }
 
             .title {
-                font-size: 84px;
+                font-size: 45px;
             }
 
             .links > a {
-                color: #636b6f;
+                color: #99b3ff;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 20px;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -61,12 +71,47 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
+            .logo_home{
+              position: absolute;
+              top: 0px;
+              left:0px;
+              width: 300px;
+              height: 10px;
+              color:#a65959;
+              background-color: white;
+              
+               }
+            .home_cabecalho{
+                position: absolute;
+                top:0px;
+                left: 300px;
+                background-color:white;
+                color:#4d4d4d;
+                width:700px;
+                height: 101px;
+                margin: 0 auto;
+                text-align: center;
+               }
         </style>
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
+       
+             <div class="logo_home">
+              <h2> Logo </h2> 
+            <header class="home_cabecalho">
+          <h1>Cartão virtual<h1>
+            </header>
+            </div>
+
+            <div class="content">
+                <div class="title m-b-md">
+                   Crie agora seu cartão virtual
+                </div>
+
+                <div class="links">
+                    <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
-                <div class="top-right links">
+                <div class="center links">
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
@@ -78,20 +123,7 @@
                     @endauth
                 </div>
             @endif
-
-            <div class="content">
-                <div class="title m-b-md">
-                   Bem-Vindo
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+            
                 </div>
             </div>
         </div>
