@@ -9,17 +9,17 @@ web.
 
 O que precisa ter em sua máquina para rodar essa aplicação:
 
-`` ``
-PHP >= 7.2.0
-Extensão PHP BCMath
-Extensão PHP de tipo
-Extensão PHP JSON
-Extensão PHP Mbstring
-Extensão PHP OpenSSL
-Extensão PHP DOP
-Extensão PHP do tokenizador
-Extensão XML PHP
-`` ``
+
+* PHP >= 7.2.0
+* Extensão PHP BCMath
+* Extensão PHP de tipo
+* Extensão PHP JSON
+* Extensão PHP Mbstring
+* Extensão PHP OpenSSL
+* Extensão PHP DOP
+* Extensão PHP do tokenizador
+* Extensão XML PHP
+
 
 ### Instalando
 
