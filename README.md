@@ -71,7 +71,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
 
  3. Basta copiar o endereço IP que apareceu na tela,
-    ![Exemplo](img5.png)
+    ![Exemplo](img6.PNG)
     colar na barra de endereço do seu navegador e executar.
     
     ![Exemplo](img4.png)
