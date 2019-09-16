@@ -10,15 +10,22 @@ web.
 O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
  
-* <a href="https://laravel.com/docs/5.8">Laravel</a> > = 5.2 ;
+* O framework PHP livre e open-source <a href="https://laravel.com/docs/5.8">Laravel</a> > = 5.2 ;
 
-* Um servidor local:
+* Um servidor local. Pode-se usar os dois mais conhecidos:
+   * <a href="https://www.apachefriends.org/index.html?tmuid=5cd7132f358a1f59a91213eaff4525b2">XAMPP</a>,
+      ou
+   * <a href="http://www.wampserver.com/en/">WAMPP</a>
+ Ambos vem com o PHP instalado com sua versão mais recente.      
+
 
 
 ### Instalando
 
-Uma série de exemplos passo a passo que mostram como obter um ambiente de desenvolvimento em execução
-
+Primeiro você baixa os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
+ 
+ 1. Bixando o arquivo zipado do GitHub;
+ ![Exemplo](img.png)
 Diga qual será o passo
 
 ```
