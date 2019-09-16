@@ -41,9 +41,11 @@
                 position: absolute;
                 right: 10px;
                 top: 10px;
-                width: 350px;
-                height: 64;
-            }
+                width: 700px;
+                height: 64px;
+                letter-spacing: 50px;
+                left: 80px;
+                 }
 
             .content {
                 text-align: center;
@@ -66,6 +68,8 @@
                 letter-spacing: .1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                
+
             }
 
             .m-b-md {

@@ -14,15 +14,19 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
 * Um servidor local. Pode-se usar os dois mais conhecidos:
    * <a href="https://www.apachefriends.org/index.html?tmuid=5cd7132f358a1f59a91213eaff4525b2">XAMPP</a>,
+
       ou
+
    * <a href="http://www.wampserver.com/en/">WAMPP</a>
+
  Ambos vem com o PHP instalado com sua versão mais recente.      
 
 
 
 ### Instalando
 
-*Primeiro você precisa baixar os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
+* Primeiro você precisa baixar os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
+
  
  1. Baixando o arquivo zipado pelo GitHub:
 
@@ -32,14 +36,14 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
  
     Depois de baixado, extraia os arquivos no local que achar melhor.
 
-    Observação: Precisa-se de um descompactador de dados, recomendamos o WinRAR.
+    ####Observação: Precisa-se de um descompactador de dados, recomendamos o WinRAR.
 
 
  2. Clonando os arquivos:
 
     Por este método precisa ter o Git instalado em sua máquina.
 
-    Abra seu terminal e digite o comando:
+    Abra seu terminal, coloque no diretório onde deseja que fique a aplicação através do coamndo "cd" e, depois, digite o comando:
 
     ```
     git clone 
@@ -55,46 +59,34 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
     git clone https://github.com/pbaesse/cartao-virtual.git
     ```
 
-* Agora vamos rodar a aplicação no navegador.
+###Agora vamos rodar a aplicação no navegador.
+
  1. Abra o terminal e entre na pasta que vc baixou. Tanto Windows quanto o Linux utilizam o comando 'cd', para o acesso de diretórios.
 
- ![Exemplo](img2.png)
+ ![Exemplo](img2.PNG)
 
-```
-até terminar
-```
 
-Termine com um exemplo de como retirar alguns dados do sistema ou usá-los para uma pequena demonstração
+ 2. Digite e, em seguida, execute o comando ```php artisan serve ```
 
-## Executando os testes
+    Se tudo der certo, irá aparecer está tela:
+    ![Exemplo](img3.PNG)
 
-Explique como executar os testes automatizados para este sistema
 
-### Divida em testes de ponta a ponta
+ 3. Basta copiar o endereço IP que apareceu na tela,
+     ![Exemplo](img5.png)
 
-Explique o que esses testes testam e por que
+     colar na barra de endereço do seu navegador e executar.
+     ![Exemplo](img4.png)
 
-```
-Dê um exemplo
-```
 
-### E testes de estilo de codificação
+#### Pronto, pode usufruir da aplicação!!
 
-Explique o que esses testes testam e por que
 
-```
-Dê um exemplo
-`` ``
-
-## Desdobramento, desenvolvimento
-
-Adicione notas adicionais sobre como implantar isso em um sistema ativo
 
 ## Construído com
 
-* [Dropwizard] (http://www.dropwizard.io/1.0.2/docs/) - A estrutura da web usada
-* [Maven] (https://maven.apache.org/) - Gerenciamento de dependências
-* [ROMA] (https://rometools.github.io/rome/) - Usado para gerar feeds RSS
+* [Laravel] (https://laravel.com/docs/5.8) - A estrutura da web usada
+
 
 ## Contribuindo
 
@@ -102,13 +94,16 @@ Leia [CONTRIBUTING.md] (https://gist.github.com/PurpleBooth/b24679402957c63ec426
 
 ## Controle de versão
 
-Usamos [SemVer] (http://semver.org/) para versionar. Para as versões disponíveis, consulte as [tags neste repositório] (https://github.com/your/project/tags).
+Usamos [Git] (https://git-scm.com/) para versionar. 
 
 ## Autores
 
-* ** Billie Thompson ** - * Trabalho inicial * - [PurpleBooth] (https://github.com/PurpleBooth)
 
-Veja também a lista de [colaboradores] (https://github.com/your/project/contributors) que participaram deste projeto.
+* ** Rodrigo Soares ** - * Trabalho inicial * - [Rodrigo] (https://github.com/Rodrigo-18)
+
+* ** Ytalo Jhonata ** - * Trabalho inicial * - [Ytalo] (https://github.com/ytalojhonata)
+
+Veja também a lista de [colaboradores] (https://github.com/pbaesse/cartao-virtual/graphs/contributors) que participaram deste projeto.
 
 ## Licença
 
@@ -116,7 +111,6 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.m
 
 ## Agradecimentos
 
-* Gorjeta para qualquer pessoa cujo código foi usado
-* Inspiração
-* etc
+* Pedro Baesse nosso orientador 
+
 
