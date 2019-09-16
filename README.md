@@ -36,12 +36,12 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
  
     Depois de baixado, extraia os arquivos no local que achar melhor.
 
-    ####Observação: Precisa-se de um descompactador de dados, recomendamos o WinRAR.
+    #### Observação: Precisa-se de um descompactador de dados, recomendamos o ![WinRAR](https://www.win-rar.com/).
 
 
  2. Clonando os arquivos:
 
-    Por este método precisa ter o Git instalado em sua máquina.
+    Por este método precisa ter o ![Git](https://git-scm.com/downloads) instalado em sua máquina.
 
     Abra seu terminal, coloque no diretório onde deseja que fique a aplicação através do coamndo "cd" e, depois, digite o comando:
 
@@ -59,7 +59,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
     git clone https://github.com/pbaesse/cartao-virtual.git
     ```
 
-###Agora vamos rodar a aplicação no navegador.
+### Agora vamos rodar a aplicação no navegador.
 
  1. Abra o terminal e entre na pasta que vc baixou. Tanto Windows quanto o Linux utilizam o comando 'cd', para o acesso de diretórios.
 
@@ -69,6 +69,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
  2. Digite e, em seguida, execute o comando ```php artisan serve ```
 
     Se tudo der certo, irá aparecer está tela:
+    
     ![Exemplo](img3.PNG)
 
 
