@@ -26,7 +26,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 ### Primeiro você precisa baixar os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
 
  
- 1. Baixando o arquivo zipado pelo GitHub:
+ ####1. Baixando o arquivo zipado pelo GitHub:
 
     Neste método precisa-se, apenas, clicar no botão "Clone or download" e clicar em "Download zip", como mostardo na imagem abaixo;
  
