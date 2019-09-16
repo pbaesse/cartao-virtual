@@ -43,7 +43,8 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
     Abra seu terminal, coloque no diretório onde deseja que fique a aplicação através do coamndo "cd" e, depois, digite o comando:
 
-    ``` git clone 
+    ```
+     git clone 
     ``` 
 
     Copie a url do repositório lá no botão "clone or download":
