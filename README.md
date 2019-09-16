@@ -69,7 +69,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
  2. Digite e, em seguida, execute o comando ```php artisan serve ```
 
     Se tudo der certo, irá aparecer está tela:
-    
+
     ![Exemplo](img3.PNG)
 
 
