@@ -34,7 +34,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
  
     Depois de baixado, extraia os arquivos no local que achar melhor.
 
-    Observação: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.win-rar.com/">WinRAR</a>.
+    Observação: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.7-zip.org/download.html/">7-zip</a>.
 
 
  2. Clonando os arquivos:
@@ -101,18 +101,17 @@ Usamos [Git] (https://git-scm.com/) para versionar.
 ## Autores
 
 
-* **Rodrigo Soares** - *Trabalho inicial* - [Rodrigo-18] (https://github.com/Rodrigo-18)
+* **Pedro Baesse** - *Engenharia de software* - [pbaesse] (https://github.com/pbaesse)
 
-* **Ytalo Jhonata** - *Trabalho inicial* - [ytalojhonata] (https://github.com/ytalojhonata)
+* **Rodrigo Soares** - *Desenvolvimento da aplicação* - [Rodrigo-18] (https://github.com/Rodrigo-18)
+
+* **Ytalo Jhonata** - *Desenvolvimento da aplicação* - [ytalojhonata] (https://github.com/ytalojhonata)
 
 Veja também a lista de [colaboradores] (https://github.com/pbaesse/cartao-virtual/graphs/contributors) que participaram deste projeto.
 
 ## Licença
 
-Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.md] (LICENSE.md) para obter detalhes
+Este projeto está licenciado sob a LICENÇA PÚBLICA GERAL GNU - consulte o arquivo [LICENSE] (LICENSE) para obter detalhes
 
-## Agradecimentos
-
-* Pedro Baesse, nosso orientador. (http://professor.pbaesse.net)
 
 
