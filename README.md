@@ -5,7 +5,7 @@ pessoais de cada cliente, de maneira virtual, através da criação de uma pági
 web.
 
 
-### Pré-requisitos
+## Pré-requisitos
 
 O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
@@ -17,16 +17,16 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
    * <a href="http://www.wampserver.com/en/">WAMPP</a>
 
-   * Ambos vem com o PHP instalado com sua versão mais recente. *    
+   ** Ambos vem com o PHP instalado com sua versão mais recente. **    
 
 
 
-### Instalando
+## Instalando
 
-* Primeiro você precisa baixar os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
+### Primeiro você precisa baixar os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
 
  
-### 1. Baixando o arquivo zipado pelo GitHub:
+ 1. Baixando o arquivo zipado pelo GitHub:
 
     Neste método precisa-se, apenas, clicar no botão "Clone or download" e clicar em "Download zip", como mostardo na imagem abaixo;
  
@@ -37,9 +37,9 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
     ** Observação: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.win-rar.com/">WinRAR</a>. **
 
 
-### 2. Clonando os arquivos:
+ 2. Clonando os arquivos:
 
-    * Por este método precisa-se ter o <a href="https://git-scm.com/downloads">Git</a> instalado em sua máquina.*
+     Por este método precisa-se ter o <a href="https://git-scm.com/downloads">Git</a> instalado em sua máquina.
 
     Abra seu terminal, coloque no diretório onde deseja que fique a aplicação através do coamndo "cd" e, depois, digite o comando:
 
@@ -55,21 +55,22 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
     git clone https://github.com/pbaesse/cartao-virtual.git
     ```
 
-* Agora vamos rodar a aplicação no navegador.
 
-### 1. Abra o terminal e entre na pasta que vc baixou. Tanto Windows quanto o Linux utilizam o comando 'cd', para o acesso de diretórios.
+### Agora vamos rodar a aplicação no navegador.
+
+ 1. Abra o terminal e entre na pasta que vc baixou. Tanto Windows quanto o Linux utilizam o comando 'cd', para o acesso de diretórios.
 
     ![Exemplo](img2.PNG)
 
 
-### 2. Digite e, em seguida, execute o comando ```php artisan serve ```
+ 2. Digite e, em seguida, execute o comando ```php artisan serve ```
 
     Se tudo der certo, irá aparecer está tela:
 
     ![Exemplo](img3.PNG)
 
 
-### 3. Basta copiar o endereço IP que apareceu na tela,
+ 3. Basta copiar o endereço IP que apareceu na tela,
     ![Exemplo](img5.png)
 
     colar na barra de endereço do seu navegador e executar.
