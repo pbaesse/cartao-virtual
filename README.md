@@ -9,12 +9,12 @@ web.
 
 O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
-`` ``
-* Laravel> = 5.2 (https://laravel.com/docs/5.8);
+``` 
+* <a href="https://laravel.com/docs/5.8">Laravel</a> > = 5.2 ;
 
 * Um servidor local:
 
-`` ``
+```
 
 ### Instalando
 
@@ -22,15 +22,15 @@ Uma série de exemplos passo a passo que mostram como obter um ambiente de desen
 
 Diga qual será o passo
 
-`` ``
+```
 Dê o exemplo
-`` ``
+```
 
 E repita
 
-`` ``
+```
 até terminar
-`` ``
+```
 
 Termine com um exemplo de como retirar alguns dados do sistema ou usá-los para uma pequena demonstração
 
@@ -42,15 +42,15 @@ Explique como executar os testes automatizados para este sistema
 
 Explique o que esses testes testam e por que
 
-`` ``
+```
 Dê um exemplo
-`` ``
+```
 
 ### E testes de estilo de codificação
 
 Explique o que esses testes testam e por que
 
-`` ``
+```
 Dê um exemplo
 `` ``
 
