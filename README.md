@@ -28,7 +28,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
  
  1. Baixando o arquivo zipado pelo GitHub:
 
-    Neste método precisa-se, apenas, clicar no botão "Clone or download" e clicar em "Download zip", como mostardo na imagem abaixo;
+    Neste método precisa-se, apenas, clicar no botão "Clone or download" e clicar em "Download zip", como mostrado na imagem abaixo;
  
     ![Exemplo](img.png)
  
