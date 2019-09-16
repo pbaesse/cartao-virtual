@@ -17,7 +17,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
    * <a href="http://www.wampserver.com/en/">WAMPP</a>
 
-   ** Ambos vem com o PHP instalado com sua versão mais recente. **    
+ **Ambos vem com o PHP instalado com sua versão mais recente.**    
 
 
 
@@ -26,7 +26,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 ### Primeiro você precisa baixar os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
 
  
- 1. Baixando o arquivo zipado pelo GitHub:
+ **1. Baixando o arquivo zipado pelo GitHub:**
 
     Neste método precisa-se, apenas, clicar no botão "Clone or download" e clicar em "Download zip", como mostardo na imagem abaixo;
  
@@ -34,14 +34,14 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
  
     Depois de baixado, extraia os arquivos no local que achar melhor.
 
-    ** Observação: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.win-rar.com/">WinRAR</a>. **
+    **Observação: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.win-rar.com/">WinRAR</a>.**
 
 
- 2. Clonando os arquivos:
+ **2. Clonando os arquivos:**
 
-     Por este método precisa-se ter o <a href="https://git-scm.com/downloads">Git</a> instalado em sua máquina.
+    *OBS.Por este método precisa-se ter o <a href="https://git-scm.com/downloads">Git</a> instalado em sua máquina.*
 
-    Abra seu terminal, coloque no diretório onde deseja que fique a aplicação através do coamndo "cd" e, depois, digite o comando:
+    * Abra seu terminal, coloque no diretório onde deseja que fique a aplicação através do coamndo "cd" e, depois, digite o comando:
 
     ``` git clone ``` 
 
@@ -72,8 +72,8 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
  3. Basta copiar o endereço IP que apareceu na tela,
     ![Exemplo](img5.png)
-
     colar na barra de endereço do seu navegador e executar.
+    
     ![Exemplo](img4.png)
 
 
