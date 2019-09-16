@@ -9,12 +9,11 @@ web.
 
 O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
-``` 
+ 
 * <a href="https://laravel.com/docs/5.8">Laravel</a> > = 5.2 ;
 
 * Um servidor local:
 
-```
 
 ### Instalando
 
