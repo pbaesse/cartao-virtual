@@ -47,7 +47,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
      git clone 
     ``` 
 
-    Copie a url do repositório lá no botão "clone or download":
+    Copie a url do repositório no botão "clone or download":
 
     ![Exemplo](img1.png)
 
@@ -111,7 +111,7 @@ Veja também a lista de [colaboradores] (https://github.com/pbaesse/cartao-virtu
 
 ## Licença
 
-Este projeto está licenciado sob a LICENÇA PÚBLICA GERAL GNU - consulte o arquivo <a href ="LICENSE">LICENSE</a> para obter detalhes.
+Este projeto está licenciado sob a LICENÇA PÚBLICA GERAL GNU - consulte o arquivo <a href ="LICENSE" target = "_blank">LICENSE</a> para obter detalhes.
 
 
 
