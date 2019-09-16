@@ -101,9 +101,9 @@ Usamos [Git] (https://git-scm.com/) para versionar.
 ## Autores
 
 
-* ** Rodrigo Soares ** - * Trabalho inicial * - [Rodrigo] (https://github.com/Rodrigo-18)
+* **Rodrigo Soares** - *Trabalho inicial* - [Rodrigo-18] (https://github.com/Rodrigo-18)
 
-* ** Ytalo Jhonata ** - * Trabalho inicial * - [Ytalo] (https://github.com/ytalojhonata)
+* **Ytalo Jhonata** - *Trabalho inicial* - [ytalojhonata] (https://github.com/ytalojhonata)
 
 Veja também a lista de [colaboradores] (https://github.com/pbaesse/cartao-virtual/graphs/contributors) que participaram deste projeto.
 
