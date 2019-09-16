@@ -22,17 +22,43 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
 ### Instalando
 
-Primeiro você baixa os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
+*Primeiro você precisa baixar os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
  
- 1. Bixando o arquivo zipado do GitHub;
- ![Exemplo](img.png)
-Diga qual será o passo
+ 1. Baixando o arquivo zipado pelo GitHub:
 
-```
-Dê o exemplo
-```
+    Neste método precisa-se, apenas, clicar no botão "Clone or download" e clicar em "Download zip", como mostardo na imagem abaixo;
+ 
+    ![Exemplo](img.png)
+ 
+    Depois de baixado, extraia os arquivos no local que achar melhor.
 
-E repita
+    Observação: Precisa-se de um descompactador de dados, recomendamos o WinRAR.
+
+
+ 2. Clonando os arquivos:
+
+    Por este método precisa ter o Git instalado em sua máquina.
+
+    Abra seu terminal e digite o comando:
+
+    ```
+    git clone 
+
+    ```  
+    Copie a url do repositório lá no botão "clone or download":
+
+    ![Exemplo](img1.png)
+
+    Agora é só colar, no terminal, depois do comando git clone:
+
+    ```
+    git clone https://github.com/pbaesse/cartao-virtual.git
+    ```
+
+* Agora vamos rodar a aplicação no navegador.
+ 1. Abra o terminal e entre na pasta que vc baixou. Tanto Windows quanto o Linux utilizam o comando 'cd', para o acesso de diretórios.
+
+ ![Exemplo](img2.png)
 
 ```
 até terminar
