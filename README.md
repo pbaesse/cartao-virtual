@@ -17,7 +17,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
    * <a href="http://www.wampserver.com/en/">WAMPP</a>
 
- **Ambos vem com o PHP instalado com sua versão mais recente.**    
+   **Ambos vem com o PHP instalado com sua versão mais recente.**    
 
 
 
@@ -41,7 +41,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
     *OBS.Por este método precisa-se ter o <a href="https://git-scm.com/downloads">Git</a> instalado em sua máquina.*
 
-    Abra seu terminal, coloque no diretório onde deseja que fique a aplicação através do coamndo "cd" e, depois, digite o comando:
+    Abra seu terminal, coloque no diretório onde deseja que fique a aplicação através do comando "cd" e, depois, digite o comando:
 
     ```
      git clone 
