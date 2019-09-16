@@ -34,7 +34,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
  
     Depois de baixado, extraia os arquivos no local que achar melhor.
 
-    **Observação: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.win-rar.com/">WinRAR</a>.**
+    Observação: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.win-rar.com/">WinRAR</a>.
 
 
  **2. Clonando os arquivos:**
