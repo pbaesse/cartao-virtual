@@ -23,10 +23,10 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
 ## Instalando
 
-### Primeiro você precisa baixar os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
+#### Primeiro você precisa baixar os arquivos do projeto que estão neste repositório. Temos duas possibilidades:
 
  
- #### 1. Baixando o arquivo zipado pelo GitHub:
+ 1. Baixando o arquivo zipado pelo GitHub:
 
     Neste método precisa-se, apenas, clicar no botão "Clone or download" e clicar em "Download zip", como mostardo na imagem abaixo;
  
@@ -37,7 +37,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
     Observação: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.win-rar.com/">WinRAR</a>.
 
 
- **2. Clonando os arquivos:**
+ 2. Clonando os arquivos:
 
     *OBS.Por este método precisa-se ter o <a href="https://git-scm.com/downloads">Git</a> instalado em sua máquina.*
 
