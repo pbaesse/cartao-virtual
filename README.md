@@ -113,6 +113,6 @@ Este projeto está licenciado sob a licença MIT - consulte o arquivo [LICENSE.m
 
 ## Agradecimentos
 
-* Pedro Baesse nosso orientador 
+* Pedro Baesse, nosso orientador. (http://professor.pbaesse.net)
 
 
