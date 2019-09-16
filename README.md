@@ -63,17 +63,18 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
     ![Exemplo](img2.PNG)
 
 
- 2. Digite e, em seguida, execute o comando ```php artisan serve ```
+ 2. Digite e, em seguida, execute o comando ```php artisan serve ```.
 
     Se tudo der certo, irá aparecer está tela:
-
     ![Exemplo](img3.PNG)
 
 
  3. Basta copiar o endereço IP que apareceu na tela,
+
     ![Exemplo](img6.PNG)
+
     colar na barra de endereço do seu navegador e executar.
-    
+
     ![Exemplo](img4.png)
 
 
