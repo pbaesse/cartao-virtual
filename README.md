@@ -34,12 +34,12 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
  
     Depois de baixado, extraia os arquivos no local que achar melhor.
 
-    Observação: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.7-zip.org/download.html/">7-zip</a>.
+    *OBS.: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.7-zip.org/download.html/">7-zip</a>.*
 
 
  2. Clonando os arquivos:
 
-    *OBS.Por este método precisa-se ter o <a href="https://git-scm.com/downloads">Git</a> instalado em sua máquina.*
+    *OBS.: Por este método precisa-se ter o <a href="https://git-scm.com/downloads">Git</a> instalado em sua máquina.*
 
     Abra seu terminal, coloque no diretório onde deseja que fique a aplicação através do comando "cd" e, depois, digite o comando:
 
@@ -47,7 +47,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
      git clone 
     ``` 
 
-    Copie a url do repositório no botão "clone or download":
+    Copie a url do repositório que se encontra no botão "clone or download":
 
     ![Exemplo](img1.png)
 
