@@ -111,7 +111,7 @@ Veja também a lista de [colaboradores] (https://github.com/pbaesse/cartao-virtu
 
 ## Licença
 
-Este projeto está licenciado sob a LICENÇA PÚBLICA GERAL GNU - consulte o arquivo [LICENSE] (LICENSE) para obter detalhes
+Este projeto está licenciado sob a LICENÇA PÚBLICA GERAL GNU - consulte o arquivo <a href ="LICENSE">LICENSE</a> para obter detalhes.
 
 
 
