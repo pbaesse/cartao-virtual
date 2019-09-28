@@ -107,7 +107,6 @@ Usamos [Git] (https://git-scm.com/) para versionar.
 
 * **Ytalo Jhonata** - *Desenvolvimento da aplicação* - [ytalojhonata] (https://github.com/ytalojhonata)
 
-Veja também a lista de [colaboradores] (https://github.com/pbaesse/cartao-virtual/graphs/contributors) que participaram deste projeto.
 
 ## Licença
 
