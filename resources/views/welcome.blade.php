@@ -1,135 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <title>Cartão Virtual</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-        <title>Cartão Virtual</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
 
-        <!-- Styles -->
-        <style>
-            html, body {
-                background-color: #fff;
-                color: #4d4d4d;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-            }
+  <!-- Bootstrap CSS File -->
+  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-            .full-height {
-                height: 100vh;
-            }
+  <!-- Libraries CSS Files -->
+  <link href="../lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../lib/animate/animate.min.css" rel="stylesheet">
 
-            .flex-center {
-                align-items: center;
-                display: flex;
-                justify-content: center;
-                width: 410px;
-                height: 120px;
-                
-            }
+  <!-- Main Stylesheet File -->
+  <link href="../css/style.css" rel="stylesheet">
 
-            .position-ref {
-                position: relative;
-            }
+</head>
 
-            .center {
-                position: absolute;
-                right: 10px;
-                top: 10px;
-                width: 700px;
-                height: 64px;
-                letter-spacing: 50px;
-                left: 80px;
-                 }
+<body>
 
-            .content {
-                text-align: center;
-                position:absolute;
-                top: 220px;
-                left: 290px;
-                height: 199px;
-                width: 883px;
-            }
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
 
-            .title {
-                font-size: 45px;
-            }
+      <div id="logo" class="pull-left">
+        <a href="#hero"><h1>Logo</h1></a>
+        
+      </div>
 
-            .links > a {
-                color: #99b3ff;
-                padding: 0 25px;
-                font-size: 20px;
-                font-weight: 600;
-                letter-spacing: .1rem;
-                text-decoration: none;
-                text-transform: uppercase;
-                
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          
+          <li class="menu-active"><a href="{{ url('/') }}">Home</a></li>
+          <li><a href="https://github.com/pbaesse/cartao-virtual">GitHub</a></li>
+          
+          <li><a href="{{ url('/login')}}">Login</a></li>
+        
+        </ul>
 
-            }
+  
+          
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
 
-            .m-b-md {
-                margin-bottom: 30px;
-            }
-            .logo_home{
-              position: absolute;
-              top: 0px;
-              left:0px;
-              width: 300px;
-              height: 10px;
-              color:#a65959;
-              background-color: white;
-              
-               }
-            .home_cabecalho{
-                position: absolute;
-                top:0px;
-                left: 300px;
-                background-color:white;
-                color:#4d4d4d;
-                width:700px;
-                height: 101px;
-                margin: 0 auto;
-                text-align: center;
-               }
-        </style>
-    </head>
-    <body>
-       
-             <div class="logo_home">
-              <h2> Logo </h2> 
-            <header class="home_cabecalho">
-          <h1>Cartão virtual<h1>
-            </header>
-            </div>
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Cartão Virtual</h1>
+      <h2>Crie agora sua página com suas informações</h2>
+      <a href="" class="btn-get-started">Cadastre-se</a>
 
-            <div class="content">
-                <div class="title m-b-md">
-                   Crie agora seu cartão virtual
-                </div>
-
-                <div class="links">
-                    <div class="flex-center position-ref full-height">
-            @if (Route::has('login'))
-                <div class="center links">
-                    @auth
-                        <a href="{{ url('/home') }}">Home</a>
-                    @else
-                        <a href="{{ route('login') }}">Login</a>
-
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
-            
-                </div>
-            </div>
-        </div>
-    </body>
+    </div>
+  </section>
+  <script type="lib/bootstrap/js/bootstrap.min.js"></script> 
+  <script type="lib/bootstrap/js/bootstrap.bundle.min.js"></script> 
+</body>
 </html>
