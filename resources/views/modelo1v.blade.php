@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-@extends('template.head')
+@extends('templatema1.head')
 <style type="text/css">
 	body {
     font: 20px Montserrat, sans-serif;
@@ -12,7 +12,7 @@
   .bg-1 { 
     background-color: #1abc9c; 
     color: #333;
-  }
+  }]
   .bg-2 { 
     background-color: #474e5d; 
     color: #ffffff;
@@ -35,10 +35,10 @@
   
 </style>
 <body>
-@extends('template.rodape')
-@extends('template.container3')
-@extends('template.container2')
-@extends('template.container1')
-@extends('template.barranav')
+@extends('templatema1.rodape')
+@extends('templatema1.container3')
+@extends('templatema1.container2')
+@extends('templatema1.container1')
+@extends('templatema1.barranav')
 </body>
 </html>

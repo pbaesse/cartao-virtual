@@ -14,8 +14,12 @@ class PagController extends Controller
     {
     	return view('escolha_modelo');
     }
-    public function modeloteste()
+    public function modeloteste1()
     {
-    	return view('modeloinicial');
+    	return view('modelo1v');
+    }
+    public function modeloteste2()
+    {
+        return view('modelo2v');
     }
 }
