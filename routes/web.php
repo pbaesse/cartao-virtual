@@ -12,7 +12,8 @@
 */
 Route::get('/',('PagController@inicio'));
 Route::get('/modelos',('PagController@escolha'));
-Route::get('/modeloteste',('PagController@modeloteste'));
+Route::get('/modelo1',('PagController@modeloteste1'));
+Route::get('/modelo2',('PagController@modeloteste2'));
 
 
 
