@@ -11,6 +11,7 @@
 |
 */
 Route::get('/',('PagController@inicio'));
+Route::resource('/form', 'DadosController');
 Route::get('/modelos',('PagController@escolha'));
 Route::get('/modelo1',('PagController@modeloteste1'));
 Route::get('/modelo2',('PagController@modeloteste2'));

@@ -32,7 +32,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
-      <span class="d-block d-lg-none">Tony Stark</span>
+      <span class="d-block d-lg-none">{{$nome}}</span>
       <span class="d-none d-lg-block">
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/foto.jpg"alt="">
       </span>
@@ -65,13 +65,13 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Tony
+        <h1 class="mb-0">{{$nome}}
           <span class="text-primary">Stark</span>
         </h1>
-        <div class="subheading mb-5">10880, Malibu Point, 90265 · Malibu , LA , Califórnia , EUA · (84) 4002-8922·
+        <div class="subheading mb-5">{{$cidade}}
           <a href="mailto:name@email.com">tonystark@avenger.com</a>
         </div>
-        <p class="lead mb-5">Anthony Stark é um rico presidente das Industrias Stark e é também o gênio inventor que criou armas militares e cujos terno metal é carregado com dispositivos tecnológicos que lhe permitam combater o crime. Durante a maior parte de sua carreira, o Homem de Ferro tem sido um membro da equipe de super-heróis Os Vingadores e tem sido destaque em várias encarnações de sua própria várias séries de histórias em quadrinhos.</p>
+        <p class="lead mb-5">{{$descr}}</p>
         <div class="social-icons">
           <a href="#">
             <i class="fab fa-instagram"></i>
@@ -99,10 +99,10 @@
           <div class="resume-content">
             <h3 class="mb-0">Homem de ferro 1</h3>
             <div class="subheading mb-3">O Inicio de tudo</div>
-            <p>Tony Stark é um industrial bilionário e inventor brilhante que realiza testes bélicos no exterior, mas é sequestrado por terroristas que o forçam a construir uma arma devastadora. Em vez disso, ele constrói uma armadura blindada e enfrenta seus sequestradores. Ao voltar para os EUA, Stark aprimora a armadura e a utiliza para combater o crime.</p>
+            <p>{{$hob}}</p>
           </div>
           <div class="resume-date text-md-right">
-            <span class="text-primary">30 de abril de 2008</span>
+            <span class="text-primary"></span>
           </div>
         </div>
 

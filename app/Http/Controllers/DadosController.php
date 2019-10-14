@@ -1,0 +1,115 @@
+<?php
+//Controller dos dados que estarão da página do usuário
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
+use App\Models\info_site;
+
+class DadosController extends Controller
+{
+   private $infos;
+
+
+   public function __construct(info_site $infos){
+
+    $this->infos = $infos;
+   }
+    
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+        //$infosite = $this->info->all();
+
+        //return view('index', compact('infosite'));
+
+    public function index()
+    {
+       $id_user = auth()-> user()->id;
+
+        return view('dados_users', compact('id_user'));
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function create()
+    {
+        /*$info = auth()-> user();
+        $id = $info ? $info->id : 0;
+        return view('dados_users', compact('id'));*/
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @return \Illuminate\Http\Response
+     */
+    public function store(Request $request)
+    {
+        $dados = $request->except('_token');
+        $registro =  auth()-> user()->info;
+        if ($registro){
+            return 'vai pra la';
+        }else{
+            $insert = $this->infos->insert($dados);
+        }
+        if ($registro) {
+            return'ola';
+        }else{
+            return redirect('/modelos');
+        }
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function show($id)
+    {
+        //
+    }
+
+    /**
+     * Show the form for editing the specified resource.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function edit($id)
+    {
+        //
+    }
+
+    /**
+     * Update the specified resource in storage.
+     *
+     * @param  \Illuminate\Http\Request  $request
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function update(Request $request, $id)
+    {
+        //
+    }
+
+    /**
+     * Remove the specified resource from storage.
+     *
+     * @param  int  $id
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy($id)
+    {
+        //
+    }
+    
+
+}
