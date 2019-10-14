@@ -84,9 +84,12 @@
             
           <li>
             <i class="fa fa-fw fa-power-off">
-                <a href="{{ url('/') }}">Sair</a>
+                <a href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Sair</a>
             </i>
-        </li>
+            <form id="logout-form" action="{{ url(config('adminlte.logout_url', 'auth/logout')) }}" method="POST" style="display: none;">
+                  {{ csrf_field() }}
+              </form>
+          </li>
           
           
         
