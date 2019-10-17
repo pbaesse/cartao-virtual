@@ -43,7 +43,7 @@
       <input type="text" class="form-control" name="cidade" id="cidade" placeholder="Cidade" >
     </div>
     <div class="col-md-6 mb-3">
-      <label for="validationDefault03">Data de Nacimento</label>
+      <label for="validationDefault03">Data de Nascimento</label>
       <input type="date" class="form-control" name="data_nasc" id="date" placeholder="" >
     </div>
     
