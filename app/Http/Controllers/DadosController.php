@@ -28,8 +28,14 @@ class DadosController extends Controller
     public function index()
     {
        $id_user = auth()-> user()->id;
+       $registro =  auth()-> user()->info;
+        if ($registro){
+            return redirect('/modelos');
+        }else{
+            return view('dados_users', compact('id_user'));
+        }
 
-        return view('dados_users', compact('id_user'));
+        
     }
 
     /**
@@ -55,15 +61,13 @@ class DadosController extends Controller
         $dados = $request->except('_token');
         $registro =  auth()-> user()->info;
         if ($registro){
-            return 'vai pra la';
+            return redirect('/modelos');
         }else{
             $insert = $this->infos->insert($dados);
-        }
-        if ($registro) {
-            return'ola';
-        }else{
             return redirect('/modelos');
         }
+
+        
     }
 
     /**

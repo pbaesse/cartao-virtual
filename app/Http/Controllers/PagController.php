@@ -19,7 +19,14 @@ class PagController extends Controller
     }
     public function escolha()
     {
-    	return view('escolha_modelo');
+        $user = auth()-> user();
+       
+        if ($user){
+            return view('escolha_modelo');
+        }else{
+            return redirect('/login');
+        }
+    	
     }
     public function modeloteste1()
     {
