@@ -40,6 +40,7 @@ class PagController extends Controller
         $data = auth()-> user()->info->data_nasc;
         $hob = auth()-> user()->info->hobbies;
         $cidade = auth()-> user()->info->cidade;
-        return view('modelo2v', compact('descr','nome','data','hob','cidade'));
+        $dat = date("d/m/Y", strtotime($data));
+        return view('modelo2v', compact('descr','nome','dat','hob','cidade'));
     }
 }

@@ -50,11 +50,16 @@
       </div>
     </div>
     <div class="col-md-6 mb-3">
+<<<<<<< HEAD
       <label for="validationCustom04">Data de nascimento</label>
      <input type="date" class="form-control" name="data_nasc" id="validationCustom04" id="date" placeholder="" required>
       <div class="invalid-feedback">
         Campo Obrigatorio!
       </div>
+=======
+      <label for="validationDefault03">Data de Nascimento</label>
+      <input type="date" class="form-control" name="data_nasc" id="date" placeholder="" >
+>>>>>>> 75cb274a6929951a0efe3a67b95eda02def55021
     </div>
     
     
