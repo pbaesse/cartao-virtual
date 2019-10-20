@@ -15,13 +15,14 @@ class CreateInfoSitesTable extends Migration
     {
         Schema::create('info_sites', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('id_user')->unsigned();
-            $table->foreign('id_user')->references('id')->on('users')->onDelete('cascade') ;
+            $table->integer('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade') ;
             $table->string('nome');
             $table->string('cidade');
             $table->string('descricao');
             $table->string('hobbies');
             $table->date('data_nasc');
+            $table->string('imagem',100)->nullable();
         });
     }
 
