@@ -42,7 +42,7 @@
           <li class="menu-active"><a href="{{ url('/') }}">Home</a></li>
           <li><a href="https://github.com/pbaesse/cartao-virtual">GitHub</a></li>
           
-          <li><a href="{{ url('/login')}}">Login</a></li>
+          <li><a href="{{ route('login') }}">Login</a></li>
         
         </ul>
 
@@ -59,7 +59,7 @@
     <div class="hero-container">
       <h1>Cartão Virtual</h1>
       <h2>Crie agora sua página com suas informações</h2>
-      <a href="{{ url('/register')}}" class="btn-get-started">Cadastre-se</a>
+      <a href="{{ route('register') }}" class="btn-get-started">Cadastre-se</a>
 
     </div>
   </section>
