@@ -5,3 +5,7 @@
   justify-content: center 
   
 }
+body{
+  background: url(/img/hero-bg.jpg) top center;
+  background-size: cover;
+}

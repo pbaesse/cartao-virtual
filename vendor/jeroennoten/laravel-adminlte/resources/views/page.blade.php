@@ -1,8 +1,12 @@
 @extends('adminlte::master')
+@section('title_prefix')
+Cartão Virtual
+@stop
 
 @section('adminlte_css')
     <link rel="stylesheet"
           href="{{ asset('vendor/adminlte/dist/css/skins/skin-' . config('adminlte.skin', 'blue') . '.min.css')}} ">
+    <link rel="stylesheet" type="text/css" href="/css/dados.css">
     @stack('css')
     @yield('css')
 @stop

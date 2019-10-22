@@ -3,9 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>@yield('title_prefix', config('adminlte.title_prefix', ''))
-@yield('title', config('adminlte.title', 'AdminLTE 2'))
-@yield('title_postfix', config('adminlte.title_postfix', ''))</title>
+    <title>@yield('title_prefix')</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -14,7 +12,6 @@
     <link rel="stylesheet" href="{{ asset('vendor/adminlte/vendor/font-awesome/css/all.min.css') }}">
     <!-- Ionicons -->
     <link rel="stylesheet" href="{{ asset('vendor/adminlte/vendor/Ionicons/css/ionicons.min.css') }}">
-    <link rel="stylesheet" href="css/dados.css">
 
     @include('adminlte::plugins', ['type' => 'css'])
 
@@ -25,6 +22,7 @@
 
     <!-- Theme style -->
     <link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/AdminLTE.css') }}">
+
 
     @yield('adminlte_css')
 
@@ -37,7 +35,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
     
 </head>
-<body class="hold-transition @yield('body_class')" id="hero">
+<body class="hold-transition @yield('body_class')" @yield('body_id')>
 @yield('header')
 
 @yield('body')

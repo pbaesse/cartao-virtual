@@ -1,4 +1,7 @@
 @extends('adminlte::master')
+@section('title_prefix')
+Registro
+@stop
 
 @section('adminlte_css')
     <link rel="stylesheet" href="{{ asset('vendor/adminlte/css/auth.css') }}">
@@ -6,6 +9,10 @@
 @stop
 
 @section('body_class', 'register-page')
+@section('body_id')
+ id="hero"
+@stop
+
 
 @section('body')
     <div class="register-box">

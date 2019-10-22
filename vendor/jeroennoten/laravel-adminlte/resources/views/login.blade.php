@@ -1,4 +1,7 @@
 @extends('adminlte::master')
+@section('title_prefix')
+Login
+@stop
 
 @section('adminlte_css')
     <link rel="stylesheet" href="{{ asset('vendor/adminlte/plugins/iCheck/square/blue.css') }}">
@@ -7,11 +10,14 @@
 @stop
 
 @section('body_class', 'login-page')
+@section('body_id')
+ id="hero"
+@stop
 
 @section('body')
     <div class="login-box">
         <div class="login-logo">
-            <a href="{{ url('/') }}">{!! config('adminlte.logo', '<b>Cartao Virtual</b>LTE') !!}</a>
+            <a href="{{ url(config('adminlte.dashboard_url', 'home')) }}">{!! config('adminlte.logo', '<b>Cartao Virtual</b>LTE') !!}</a>
         </div>
         <!-- /.login-logo -->
         <div class="login-box-body">
