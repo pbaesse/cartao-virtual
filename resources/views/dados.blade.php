@@ -41,7 +41,7 @@ Dados Pessoais
   </div>
    <div class="form-group" >
       <label >Imagem do Perfil</label>
-      <input type="file" class="form-control" name="img" id="validationDefault01" placeholder="Nome" >
+      <input type="file" class="form-control" name="imagem" id="validationDefault01" placeholder="Nome" >
     </div>
 
   <button class="btn btn-primary" type="submit">Concluir</button>
