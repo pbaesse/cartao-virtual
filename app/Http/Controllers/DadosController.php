@@ -62,7 +62,12 @@ class DadosController extends Controller
      */
     public function store(Request $request)
     {
+        $user = auth()->user();
         $dados = $request->except('_token');
+        $dados['img']->$user->img;
+        if ($request->hasFile('img') && $request->file('img')->isValid()) {
+           
+        }
         $registro =  auth()-> user()->info;
         if ($registro){
             return redirect('/modelos');

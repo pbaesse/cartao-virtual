@@ -1,6 +1,9 @@
 @extends('adminlte::page')
 
-@section('title', 'AdminLTE')
+@section('title_prefix')
+Dados Pessoais
+@stop
+
 
 @section('content_header')
     <h1 style="text-align: center;">Formulário</h1>
