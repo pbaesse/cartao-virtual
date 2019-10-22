@@ -15,7 +15,7 @@ class PagController extends Controller
    }
     public function inicio()
     {
-        return redirect('/login');
+    	return redirect('/login');
     }
     public function perfil()
     {
@@ -24,11 +24,11 @@ class PagController extends Controller
     }
     public function escolha()
     {
-        return view('escolha_modelo');
+    	return view('escolha_modelo');
     }
     public function modeloteste1()
     {
-        return view('modelo1v');
+    	return view('modelo1v');
     }
     public function modeloteste2()
     {

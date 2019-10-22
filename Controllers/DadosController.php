@@ -63,15 +63,18 @@ class DadosController extends Controller
     public function store(Request $request)
     {
         $dados = $request->except('_token');
+        $dados['img'] = 
         $registro =  auth()-> user()->info;
         if ($registro){
-            return redirect('/modelos');
+            return 'vai pra la';
         }else{
             $insert = $this->infos->insert($dados);
+        }
+        if ($registro) {
+            return'ola';
+        }else{
             return redirect('/modelos');
         }
-
-        
     }
 
     /**

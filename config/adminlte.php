@@ -32,7 +32,7 @@ return [
 
     'logo' => '<b>Cartão Virtual</b>',
 
-    'logo_mini' => '<b>A</b>LT',
+    'logo_mini' => '<b></b>LT',
 
     /*
     |--------------------------------------------------------------------------
@@ -85,7 +85,7 @@ return [
     |
     */
 
-    'dashboard_url' => 'home',
+    'dashboard_url' => 'admin',
 
     'logout_url' => 'logout',
 
@@ -107,10 +107,10 @@ return [
     */
 
     'menu' => [
-        [
+        /*[
             'text' => 'search',
             'search' => true,
-        ],
+        ],*/
         ['header' => 'main_navigation'],
         [
             'text' => 'blog',
@@ -121,13 +121,13 @@ return [
             'text'        => 'Página Inicial',
             'url'         => 'admin',
             'icon'        => 'fas fa-home',
-            'label'       => 4,
             'label_color' => 'success',
         ],
+
         ['header' => 'account_settings'],
         [
             'text' => 'profile',
-            'url'  => 'admin/settings',
+            'url'  => 'admin/perfil',
             'icon' => 'fas fa-fw fa-user',
         ],
         [
@@ -135,45 +135,7 @@ return [
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
-        [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
-            'submenu' => [
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-                [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
-                    'url'  => '#',
-                ],
-            ],
-        ],
-        ['header' => 'labels'],
+       // ['header' => 'labels'],
        
     ],
 

@@ -11,6 +11,7 @@
 |
 */
 Route::get('/',('PagController@inicio'));
+Route::get('/admin/perfil',('PagController@perfil'));
 Route::resource('/form', 'DadosController');
 Route::get('/modelos',('PagController@escolha'));
 Route::get('/modelo1',('PagController@modeloteste1'));
@@ -20,4 +21,4 @@ Route::get('/modelo2',('PagController@modeloteste2'));
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/admin', 'HomeController@index');

@@ -40,8 +40,8 @@
         <ul class="nav-menu">
           
           <li class="menu-active"><a href="{{ url('/') }}">Home</a></li>
-          <li><a href="https://github.com/pbaesse/cartao-virtual">GitHub</a></li>
-          
+          <li><a href="https://github.com/pbaesse/cartao-virtual">GitHub</a></li>'
+                    '
           <li><a href="{{ route('login') }}">Login</a></li>
         
         </ul>
