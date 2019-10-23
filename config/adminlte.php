@@ -135,6 +135,21 @@ return [
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
         ],
+        [
+            'text' => 'Gerenciamento de temas',
+            'url'  => 'admin/temas',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Gerenciamento de plugins',
+            'url'  => 'admin/plugins',
+            'icon' => 'fas fa-fw fa-lock',
+        ],
+        [
+            'text' => 'Configurações',
+            'url'  => 'admin/settings',
+            'icon' => 'fas fa-fw fa-lock',
+        ]
        // ['header' => 'labels'],
        
     ],
