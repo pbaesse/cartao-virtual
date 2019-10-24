@@ -30,7 +30,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
     Neste método precisa-se, apenas, clicar no botão "Clone or download" e clicar em "Download zip", como mostrado na imagem abaixo;
  
-    ![Exemplo](imgreadme/img.png)
+    ![Exemplo](.imgreadme/img.png)
  
     Depois de baixado, extraia os arquivos no local que achar melhor.
 
@@ -49,7 +49,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
     Copie a url do repositório que se encontra no botão "clone or download":
 
-    ![Exemplo](imgreadme/img1.png)
+    ![Exemplo](.imgreadme/img1.png)
 
     Agora é só colar, no terminal, depois do comando git clone:
 
@@ -62,23 +62,23 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
 
  1. Abra o terminal e entre na pasta que vc baixou. Tanto Windows quanto o Linux utilizam o comando 'cd', para o acesso de diretórios.
 
-    ![Exemplo](imgreadme/img2.PNG)
+    ![Exemplo](.imgreadme/img2.PNG)
 
 
  2. Digite e, em seguida, execute o comando ```php artisan serve ```.
 
     Se tudo der certo, irá aparecer está tela:
     
-    ![Exemplo](imgreadme/img3.PNG)
+    ![Exemplo](.imgreadme/img3.PNG)
 
 
  3. Basta copiar o endereço IP que apareceu na tela,
 
-    ![Exemplo](imgreadme/img6.PNG)
+    ![Exemplo](.imgreadme/img6.PNG)
 
     colar na barra de endereço do seu navegador e executar.
 
-    ![Exemplo](imgreadme/img4.png)
+    ![Exemplo](.imgreadme/img4.png)
 
 
 #### Pronto, pode usufruir da aplicação!!
