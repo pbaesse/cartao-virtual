@@ -27,10 +27,9 @@ class DadosController extends Controller
 
     public function index()
     {
-        $login = auth()->user();
+       /* $login = auth()->user();
         if ($login) {
           $id_user = auth()-> user()->id;
-           $registro =  auth()-> user()->info;
               if ($registro){
               return redirect('/admin');
              }else{
@@ -38,7 +37,7 @@ class DadosController extends Controller
              }
        }else{
             return redirect('/login');
-        }
+        }*/
 
     }
 

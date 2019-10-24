@@ -1,7 +1,7 @@
 @extends('adminlte::page')
 
 @section('title_prefix')
-Dados Pessoais
+Perfil
 @stop
 
 
@@ -11,7 +11,7 @@ Dados Pessoais
 
 @section('content')
 <div class="dados">
- <form method="POST" action="{{ route('form.store') }}" enctype="multipart/form-data" style="width:500px;">
+ <form method="POST" action="{{ route('perfi.store') }}" enctype="multipart/form-data" style="width:500px;">
     {!! csrf_field() !!}
     <input type="text" hidden name="user_id" value="{{$id_user}}">
   <div class="form-group" >

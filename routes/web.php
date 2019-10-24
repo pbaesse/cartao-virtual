@@ -12,8 +12,15 @@
 */
 Route::get('/',('PagController@inicio'));
 Route::get('/admin/perfil',('PagController@perfil'));
-Route::resource('/form', 'DadosController');
-Route::get('/modelos',('PagController@escolha'));
+//Rotas do gerenciador de temas
+Route::get('/admin/temas',('PagController@temas'));
+//Rotas do gerenciador de plugins
+Route::get('/admin/plugins',('PagController@plugins'));
+//Rotas das configurações
+Route::get('/admin/settings',('PagController@settings'));
+
+Route::resource('/admin/perfi', 'DadosController');
+
 Route::get('/modelo1',('PagController@modeloteste1'));
 Route::get('/modelo2',('PagController@modeloteste2'));
 
