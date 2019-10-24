@@ -19,8 +19,13 @@ class PagController extends Controller
     }
     public function perfil()
     {
+        $user= auth()->user();
+        if ($user) {
         $id_user = auth()-> user()->id;
         return view('dados', compact('id_user'));
+        }else{
+            return redirect('/login');
+        }
     }
     public function escolha()
     {

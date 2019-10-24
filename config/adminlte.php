@@ -32,7 +32,7 @@ return [
 
     'logo' => '<b>Cartão Virtual</b>',
 
-    'logo_mini' => '<b></b>LT',
+    'logo_mini' => '<b></b>C.V.',
 
     /*
     |--------------------------------------------------------------------------
@@ -130,25 +130,25 @@ return [
             'url'  => 'admin/perfil',
             'icon' => 'fas fa-fw fa-user',
         ],
-        [
+        /*[
             'text' => 'change_password',
             'url'  => 'admin/settings',
             'icon' => 'fas fa-fw fa-lock',
-        ],
+        ],*/
         [
             'text' => 'Gerenciamento de temas',
             'url'  => 'admin/temas',
-            'icon' => 'fas fa-fw fa-lock',
+            'icon' => 'fas fa-fw fa-paint-brush',
         ],
         [
             'text' => 'Gerenciamento de plugins',
             'url'  => 'admin/plugins',
-            'icon' => 'fas fa-fw fa-lock',
+            'icon' => 'fas fa-fw fa-plug',
         ],
         [
             'text' => 'Configurações',
             'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
+            'icon' => 'fas fa-fw fa-cog',
         ]
        // ['header' => 'labels'],
        

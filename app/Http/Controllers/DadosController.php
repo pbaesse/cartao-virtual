@@ -62,23 +62,25 @@ class DadosController extends Controller
      */
     public function store(Request $request)
     {
-        $user = auth()->user();
-        $users = auth()->user()->info;
+        //$user = auth()->user();
+        //$users = auth()->user()->info;
         $dados = $request->except('_token');
 
         /*$dados['imagem'] = $users->imagem;
+        
         if ($request->hasFile('imagem') && $request->file('imagem')->isValid()) {
-           if ($users->img) 
-               $name = $users->img;
-           else
-               $name = id.kebab_case($user->email);
+           if ($users->imagem){ 
+               $name = $users->imagem;
+           }else{
+               $name =$user->id.kebab_case($user->email);
+           }
+           dd($name);
 
-           $extenstion = $request->img->extension();
+           $extenstion = $request->imagem->extension();
            $nameFile = "{$name}.{$extension}";
 
-           }
-           dd($nameFile);*/
-        $registro =  auth()-> user()->info;
+           }*/
+       $registro =  auth()-> user()->info;
         if ($registro){
             return redirect('/admin');
         }else{
