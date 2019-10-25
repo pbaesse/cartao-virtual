@@ -24,10 +24,10 @@ class PagController extends Controller
             $registro = auth()->user()->info;
             if ($registro) {
                $id_user = auth()-> user()->id;
-               return view('perfil.perfil', compact('id_user'));
+               return view('Admin.perfil.perfil', compact('id_user'));
             }else{
                $id_user = auth()-> user()->id;
-               return view('perfil.dados', compact('id_user'));
+               return view('Admin.perfil.dados', compact('id_user'));
            }
         }else{
             return redirect('/login');
@@ -35,19 +35,19 @@ class PagController extends Controller
     }
     public function temas()
     {
-        return view('temas');
+        return view('Admin.config.temas');
     }
     public function plugins()
     {
-        return view('plugins');
+        return view('Admin.config.plugins');
     }
     public function settings()
     {
-        return view('settings');
+        return view('Admin.config.settings');
     }
     public function modeloteste1()
     {
-        return view('modelos.modelo1v');
+        return view('Admin.modelos.modelo1v');
     }
     public function modeloteste2()
     {
@@ -59,7 +59,7 @@ class PagController extends Controller
         $hob = auth()-> user()->info->hobbies;
         $cidade = auth()-> user()->info->cidade;
         $dat = date("d/m/Y", strtotime($data));
-        return view('modelos.modelo2v', compact('descr','nome','dat','hob','cidade'));
+        return view('Admin.modelos.modelo2v', compact('descr','nome','dat','hob','cidade'));
        }else{
         return redirect('/admin/perfil');
        }
