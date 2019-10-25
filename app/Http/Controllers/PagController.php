@@ -43,7 +43,7 @@ class PagController extends Controller
     }
     public function settings()
     {
-        return view('Admin.config.settings');
+        return view('Admin.config.config');
     }
     public function modeloteste1()
     {
