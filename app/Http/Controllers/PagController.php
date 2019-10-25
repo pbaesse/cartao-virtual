@@ -33,7 +33,18 @@ class PagController extends Controller
             return redirect('/login');
         }
     }
-    
+    public function temas()
+    {
+        return view('temas');
+    }
+    public function plugins()
+    {
+        return view('plugins');
+    }
+    public function settings()
+    {
+        return view('settings');
+    }
     public function modeloteste1()
     {
         return view('modelos.modelo1v');

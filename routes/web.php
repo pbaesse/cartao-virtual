@@ -18,6 +18,8 @@ Route::get('/admin/temas',('PagController@temas'));
 Route::get('/admin/plugins',('PagController@plugins'));
 //Rotas das configurações
 Route::get('/admin/settings',('PagController@settings'));
+//Rotas de edição das informações do perfil
+Route::get('/admin/edit',('PagController@edit'));
 
 Route::resource('/admin/perfi', 'DadosController');
 

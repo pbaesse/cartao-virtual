@@ -221,6 +221,7 @@ a:focus {
   border: none;
   min-height: 50px;
   border-radius: 0;
+  height: 50px;
 }
 .layout-top-nav .main-header .navbar {
   margin-left: 0;
@@ -323,6 +324,7 @@ a:focus {
   padding: 0 15px;
   font-weight: 300;
   overflow: hidden;
+
 }
 .main-header .logo img {
   padding: 4px;
@@ -459,6 +461,7 @@ a:focus {
     position: absolute;
     top: 0;
     right: 40px;
+    
   }
 }
 /*
