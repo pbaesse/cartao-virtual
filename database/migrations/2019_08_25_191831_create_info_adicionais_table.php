@@ -16,8 +16,8 @@ class CreateInfoAdicionaisTable extends Migration
         Schema::create('info_adicionais', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('redes_sociais');
-             $table->integer('id_user')->unsigned();
-            $table->foreign('id_user')->references('id')->on('info_sites')->onDelete('cascade') ;
+             $table->BigInteger('user_id')->unsigned();
+            $table->foreign('user_id')->references('id')->on('info_sites')->onDelete('cascade') ;
             
         });
     }

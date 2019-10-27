@@ -15,7 +15,7 @@ class CreateInfoSitesTable extends Migration
     {
         Schema::create('info_sites', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('user_id')->unsigned();
+            $table->BigInteger('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade') ;
             $table->string('nome');
             $table->string('cidade');

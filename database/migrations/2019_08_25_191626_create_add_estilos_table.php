@@ -15,8 +15,8 @@ class CreateAddEstilosTable extends Migration
     {
         Schema::create('add_estilos', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->enum('temas',['1','2','3','4']);
-            $table->enum('fontes',['1','2','3','4']);
+            //$table->enum('temas',['1','2','3','4']);
+            //$table->enum('fontes',['1','2','3','4']);
             $table->string('cores');
 
         });
