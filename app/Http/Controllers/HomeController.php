@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\info_site;
 
 class HomeController extends Controller
 {
@@ -23,6 +24,12 @@ class HomeController extends Controller
      */
     public function index()
     {
+        $registro =  auth()-> user()->info;
+        if ($registro) {
         return view('home');
+            
+        }else{
+          return redirect('/admin/perfil');  
+        }
     }
 }

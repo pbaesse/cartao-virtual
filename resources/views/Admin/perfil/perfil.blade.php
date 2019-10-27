@@ -15,24 +15,24 @@ Perfil
         <div class="col-lg-8 order-lg-2">
             <ul class="nav nav-tabs">
                 <li class="nav-item">
-                    <a href="" data-target="#profile" data-toggle="tab" class="nav-link active">Profile</a>
+                    <a href="" data-target="#profile" data-toggle="tab" class="nav-link active">Perfil</a>
                 </li>
                 <li class="nav-item">
-                    <a href="" data-target="#edit" data-toggle="tab" class="nav-link">Edit</a>
+                    <a href="" data-target="#edit" data-toggle="tab" class="nav-link">Edite</a>
                 </li>
             </ul>
             <div class="tab-content py-4">
                 <div class="tab-pane active" id="profile">
-                    <h5 class="mb-3">User Profile</h5>
+                        <h4 class="mb-3">{{$nome}}</h5>
                     <div class="row">
                         <div class="col-md-6">
-                            <h6>About</h6>
+                            <h5>Descrição</h5>
                             <p>
-                                Web Designer, UI/UX Engineer
+                                {{$descr}}
                             </p>
-                            <h6>Hobbies</h6>
+                            <h5>Hobbies</h5>
                             <p>
-                                Indie music, skiing and hiking. I love the great outdoors.
+                               {{$hob}}
                             </p>
                         </div>
                         <div class="col-md-6">
@@ -84,39 +84,33 @@ Perfil
                 <div class="tab-pane" id="edit">
                     <form role="form">
                         <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">First name</label>
-                            <div class="col-lg-9">
-                                <input class="form-control" type="text" value="Jane">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">Last name</label>
-                            <div class="col-lg-9">
-                                <input class="form-control" type="text" value="Bishop">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">Email</label>
-                            <div class="col-lg-9">
-                                <input class="form-control" type="email" value="email@gmail.com">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">Company</label>
+                            <label class="col-lg-3 col-form-label form-control-label">Nome</label>
                             <div class="col-lg-9">
                                 <input class="form-control" type="text" value="">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">Website</label>
+                            <label class="col-lg-3 col-form-label form-control-label">Sobrenome</label>
                             <div class="col-lg-9">
-                                <input class="form-control" type="url" value="">
+                                <input class="form-control" type="text" value="">
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">Address</label>
+                            <label class="col-lg-3 col-form-label form-control-label">Cidade</label>
                             <div class="col-lg-9">
-                                <input class="form-control" type="text" value="" placeholder="Street">
+                                <input class="form-control" type="text" value="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Data de nascimento</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="date" value="">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-lg-3 col-form-label form-control-label">Hobbies</label>
+                            <div class="col-lg-9">
+                                <input class="form-control" type="" value="" placeholder="Street">
                             </div>
                         </div>
                         <div class="form-group row">
