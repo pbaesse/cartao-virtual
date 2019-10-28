@@ -83,6 +83,10 @@ Perfil
                 </div>
                 <div class="tab-pane" id="edit">
                     <form role="form">
+                    <div class="col-lg-4 order-lg-1 text-center" style="width: 700px; margin-bottom: 20px; padding-left: ">
+                         <img src="//placehold.it/150" class="mx-auto img-fluid img-circle d-block" alt="avatar">
+                         <input type="file" id="file" class="" style="width: 400px; margin-top: 20px;">
+                     </div>             
                         <div class="form-group row">
                             <label class="col-lg-3 col-form-label form-control-label">Nome</label>
                             <div class="col-lg-9">
@@ -108,58 +112,19 @@ Perfil
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">Hobbies</label>
-                            <div class="col-lg-9">
-                                <input class="form-control" type="" value="" placeholder="Street">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label"></label>
-                            <div class="col-lg-6">
-                                <input class="form-control" type="text" value="" placeholder="City">
-                            </div>
-                            <div class="col-lg-3">
-                                <input class="form-control" type="text" value="" placeholder="State">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">Time Zone</label>
-                            <div class="col-lg-9">
-                                <select id="user_time_zone" class="form-control" size="0">
-                                    <option value="Hawaii">(GMT-10:00) Hawaii</option>
-                                    <option value="Alaska">(GMT-09:00) Alaska</option>
-                                    <option value="Pacific Time (US &amp; Canada)">(GMT-08:00) Pacific Time (US &amp; Canada)</option>
-                                    <option value="Arizona">(GMT-07:00) Arizona</option>
-                                    <option value="Mountain Time (US &amp; Canada)">(GMT-07:00) Mountain Time (US &amp; Canada)</option>
-                                    <option value="Central Time (US &amp; Canada)" selected="selected">(GMT-06:00) Central Time (US &amp; Canada)</option>
-                                    <option value="Eastern Time (US &amp; Canada)">(GMT-05:00) Eastern Time (US &amp; Canada)</option>
-                                    <option value="Indiana (East)">(GMT-05:00) Indiana (East)</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">Username</label>
-                            <div class="col-lg-9">
-                                <input class="form-control" type="text" value="janeuser">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">Password</label>
-                            <div class="col-lg-9">
-                                <input class="form-control" type="password" value="11111122333">
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label class="col-lg-3 col-form-label form-control-label">Confirm password</label>
-                            <div class="col-lg-9">
-                                <input class="form-control" type="password" value="11111122333">
-                            </div>
-                        </div>
+                           <label for="testeAreaDescr" class="col-lg-3 col-form-label form-control-label">Hobbies</label>
+                           <textarea class="form-control" id="description" name="hobbies" rows="3" placeholder="Informe seus hobbies aqui"></textarea>
+                         </div>
+                         <div class="form-group row">
+                           <label for="testeAreaDescr" class="col-lg-3 col-form-label form-control-label">Descrição</label>
+                           <textarea class="form-control" id="description" name="descricao" rows="3" placeholder="Faça uma descrição sobre você"></textarea>
+                         </div>
+
                         <div class="form-group row">
                             <label class="col-lg-3 col-form-label form-control-label"></label>
                             <div class="col-lg-9">
                                 <input type="reset" class="btn btn-secondary" value="Cancel">
-                                <input type="button" class="btn btn-primary" value="Save Changes">
+                                <input type="button" class="btn btn-primary" value="Salve as mudanças">
                             </div>
                         </div>
                     </form>
@@ -168,11 +133,7 @@ Perfil
         </div>
         <div class="col-lg-4 order-lg-1 text-center">
             <img src="//placehold.it/150" class="mx-auto img-fluid img-circle d-block" alt="avatar">
-            <h6 class="mt-2">Upload a different photo</h6>
-            <label class="custom-file">
-                <input type="file" id="file" class="custom-file-input">
-                <span class="custom-file-control">Choose file</span>
-            </label>
+            <h6 class="mt-2">{{$nome}}</h6>
         </div>
     </div>
 </div>
