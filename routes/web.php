@@ -12,6 +12,7 @@
 */
 Route::get('/',('PagController@inicio'));
 Route::get('/admin/perfil',('PagController@perfil'));
+Route::get('/admin/perfil/escolha',('PagController@escolha'));
 //Rotas do gerenciador de temas
 Route::get('/admin/temas',('PagController@temas'));
 //Rotas do gerenciador de plugins

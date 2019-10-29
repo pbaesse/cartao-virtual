@@ -1,17 +1,40 @@
 @extends('adminlte::page')
-
 @section('title_prefix')
-Dados Pessoais
+Dados
 @stop
+@section('adminlte_jv')
+<script type="text/javascript">
+  function mudar() {
+    var divTu = document.getElementById("dd");
+      divTu.style.display = "none";
 
+    var cadastro = document.getElementById("dad");
+      cadastro.style.display = "";
 
+      var title = document.getElementById("h");
+      title.style.display = "";
+
+  }
+  
+</script>
+ @stop
 @section('content_header')
-    <h1 style="text-align: center;">Informações para a página</h1>
+     <h3 id="h" style="display: none; text-align: center;">Informações do usuário</h3> 
 @stop
+
 
 @section('content')
-
-<div class="dados">
+<div class="card text-center" style="height: 500px;" id="dd">
+  <div class="card-header">
+    Cartão Virtual
+  </div>
+  <div class="card-body" style="padding-top: 150px;">
+    <h3 class="card-title">Informe seus dados pessoais</h3>
+    <p class="card-text">Para concluir seu cadastro, e poder usufruir dos nosso serviços, é preciso que informe os dados que irão aparecer na sua página.</p>
+    <a href="#h" class="btn btn-primary" onclick=" mudar();" style="margin-top: 100px;">Continuar</a>
+  </div>
+</div>
+<div class="dados" id="dad" style="display: none;">
  <form method="POST" action="{{ route('perfi.store') }}" enctype="multipart/form-data" style="width:500px;">
     {!! csrf_field() !!}
     <input type="text" hidden name="user_id" value="{{$id_user}}">
@@ -50,3 +73,4 @@ Dados Pessoais
 </form>
 </div>
 @stop
+ 

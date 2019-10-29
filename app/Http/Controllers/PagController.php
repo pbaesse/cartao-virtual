@@ -13,9 +13,14 @@ class PagController extends Controller
     public function __construct(info_site $info){
       $this->info = $info;
    }
+
     public function inicio()
     {
         return redirect('/login');
+    }
+    public function escolha()
+    {
+        return view('Admin.perfil.escolha');
     }
     public function perfil()
     {
@@ -23,7 +28,7 @@ class PagController extends Controller
         if ($user) {
             $registro = auth()->user()->info;
             if ($registro) {
-               $id_user = auth()-> user()->id;
+               
                $descr = auth()-> user()->info->descricao;
                $nome = auth()-> user()->info->nome;
                $data = auth()-> user()->info->data_nasc;
@@ -32,7 +37,7 @@ class PagController extends Controller
                $dat = date("d/m/Y", strtotime($data));
                return view('Admin.perfil.perfil', compact('descr','nome','dat','hob','cidade'));
             }else{
-               $id_user = auth()-> user()->id;
+               $id_user = $user->id;
                return view('Admin.perfil.dados', compact('id_user'));
            }
         }else{

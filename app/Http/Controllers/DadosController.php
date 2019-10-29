@@ -84,7 +84,7 @@ class DadosController extends Controller
             return redirect('/admin');
         }else{
             $insert = $this->infos->insert($dados);
-            return redirect('/admin');
+            return redirect('/admin/perfil/escolha');
         }
 
         
