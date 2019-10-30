@@ -58,8 +58,20 @@ class PagController extends Controller
     }
     public function modeloteste1()
     {
-        return view('Admin.modelos.modelo1v');
+       $registro =  auth()-> user()->info;
+       if($registro){
+        $descr = auth()-> user()->info->descricao;
+        $nome = auth()-> user()->info->nome;
+        $data = auth()-> user()->info->data_nasc;
+        $hob = auth()-> user()->info->hobbies;
+        $cidade = auth()-> user()->info->cidade;
+        $dat = date("d/m/Y", strtotime($data));
+        return view('Admin.modelos.modelo2v', compact('descr','nome','dat','hob','cidade'));
+       }else{
+        return redirect('/admin/perfil');
+       }
     }
+    
     public function modeloteste2()
     {
        $registro =  auth()-> user()->info;
