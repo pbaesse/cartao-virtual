@@ -1,7 +1,4 @@
 @extends('adminlte::master')
-@section('title_prefix')
-Registro
-@stop
 
 @section('adminlte_css')
     <link rel="stylesheet" href="{{ asset('vendor/adminlte/css/auth.css') }}">
@@ -9,15 +6,11 @@ Registro
 @stop
 
 @section('body_class', 'register-page')
-@section('body_id')
- id="hero"
-@stop
-
 
 @section('body')
     <div class="register-box">
         <div class="register-logo">
-            <a href="{{ url(config('adminlte.dashboard_url', 'home')) }}">{!! config('adminlte.logo', '<b>Registro</b>') !!}</a>
+            <a href="{{ url(config('adminlte.dashboard_url', 'home')) }}">{!! config('adminlte.logo', '<b>Admin</b>LTE') !!}</a>
         </div>
 
         <div class="register-box-body">

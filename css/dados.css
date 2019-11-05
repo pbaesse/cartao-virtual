@@ -1,0 +1,11 @@
+.dados{
+  padding-top: 40px ; 
+  display: flex;
+  align-items: center;
+  justify-content: center 
+  
+}
+body{
+  background: url(/img/hero-bg.jpg) top center;
+  background-size: cover;
+}

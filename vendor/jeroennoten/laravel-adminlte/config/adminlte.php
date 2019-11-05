@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'title' => 'Cartão Virtual',
+    'title' => 'AdminLTE 2',
 
     'title_prefix' => '',
 
@@ -30,9 +30,9 @@ return [
     |
     */
 
-    'logo' => '<b>Cartão Virtual</b>',
+    'logo' => '<b>Admin</b>LTE',
 
-    'logo_mini' => '<b></b>LT',
+    'logo_mini' => '<b>A</b>LT',
 
     /*
     |--------------------------------------------------------------------------

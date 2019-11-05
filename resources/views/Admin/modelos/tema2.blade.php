@@ -21,9 +21,9 @@
   <!-- Custom styles for this template -->
   <link href="css/resume.min.css" rel="stylesheet">
   <style type="text/css">
-  	.list-inline-item{
-  		margin-bottom: 20px;
-  	}
+    .list-inline-item{
+      margin-bottom: 20px;
+    }
   </style>
 
 </head>
