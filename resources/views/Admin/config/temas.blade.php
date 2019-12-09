@@ -43,6 +43,14 @@
 		height: 330px;
 		
     }
+    .modelo5{
+		position: absolute;
+		left: 280px;
+		top: 500px;
+		width: 255px;
+		height: 330px;
+		
+    }
 
 </style>
 @section('title_prefix')
@@ -52,19 +60,22 @@ Gerenciador de temas
 <h1>Selecione seu tema: </h1>
 @stop
 @section('content')
-    <div class="divisão"></div>
+    
     <div class="modelo1">
     	<img src="{{ url('imagens/tdmundo.jpg') }}" width="200px" height="200px"><a href="{{ url('/modelo1') }}"><button  type="button" class="btn btn-primary" >Tema 1</button></a>    
      </div>
          <div class="modelo2">
     	<img src="{{ url('imagens/tdmundo.jpg') }}" width="200px" height="200px"><a href="{{ url('/modelo2') }}"><button  type="button" class="btn btn-primary" >Tema 2</button></a>    
      </div>
-      <div class="divisão2"></div>
+      
       <div class="modelo3">
-    	<a href="{{ url('/modelo3') }}"width="255px" height="330px"><button  type="button" class="btn btn-primary" >Tema 3</button></a>    
+    	<img src="{{ url('imagens/tdmundo.jpg') }}" width="200px" height="200px"><a href="{{ url('/modelo3') }}"><button  type="button" class="btn btn-primary" >Tema 3</button></a>    
      </div>
-      <div class="modelo4">
-    	<a href="{{ url('/modelo4') }}"width="255px" height="330px"><button  type="button" class="btn btn-primary" >Tema 4</button></a>    
+      <div class="modelo2">
+    	<img src="{{ url('imagens/tdmundo.jpg') }}" width="200px" height="200px"><a href="{{ url('/modelo4') }}"><button  type="button" class="btn btn-primary" >Tema 4</button></a>    
+     </div>
+     <<div class="modelo5">
+    	<img src="{{ url('imagens/tdmundo.jpg') }}" width="200px" height="200px"><a href="{{ url('/modelo5') }}"><button  type="button" class="btn btn-primary" >Tema 5</button></a>    
      </div>
 @stop
 

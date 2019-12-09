@@ -28,6 +28,7 @@ return array(
     'App\\Models\\add_estilos' => $baseDir . '/app/Models/add_estilos.php',
     'App\\Models\\info_adicionais' => $baseDir . '/app/Models/info_adicionais.php',
     'App\\Models\\info_site' => $baseDir . '/app/Models/info_site.php',
+    'App\\Models\\temas' => $baseDir . '/app/Models/temas.php',
     'App\\Providers\\AppServiceProvider' => $baseDir . '/app/Providers/AppServiceProvider.php',
     'App\\Providers\\AuthServiceProvider' => $baseDir . '/app/Providers/AuthServiceProvider.php',
     'App\\Providers\\BroadcastServiceProvider' => $baseDir . '/app/Providers/BroadcastServiceProvider.php',

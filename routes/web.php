@@ -26,6 +26,9 @@ Route::resource('/admin/perfi', 'DadosController');
 
 Route::get('/modelo1',('PagController@modeloteste1'));
 Route::get('/modelo2',('PagController@modeloteste2'));
+Route::get('/modelo3',('PagController@modeloteste3'));
+Route::get('/modelo4',('PagController@modeloteste4'));
+Route::get('/modelo5',('PagController@modeloteste5'));
 
 
 
