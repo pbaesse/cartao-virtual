@@ -34,7 +34,7 @@ O que você precisa ter instalado em sua máquina para rodar essa aplicação:
  
     Depois de baixado, extraia os arquivos no local que achar melhor.
 
-    *OBS.: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.7-zip.org/download.html/">7-zip</a>.*
+    *OBS.: Precisa-se de um descompactador de dados, recomendamos o <a href ="https://www.7-zip.org/">7-zip</a>.*
 
 
  2. Clonando os arquivos:
